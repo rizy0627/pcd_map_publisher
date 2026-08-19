@@ -1,0 +1,15 @@
+defaults:
+  frame_id: "map"
+  publish_rate_hz: 1.0
+  use_transient_local: false
+  enable_voxel_downsampling: true
+  voxel_leaf_size: 0.1
+
+publishers:
+  - name: "pcd_map_publisher_356"
+    pcd_file_path: "/home/rizy/maps/galileo_3_5/356.pcd"
+    topic_name: "/pcd_map_356"
+
+  - name: "pcd_map_publisher_galileo_3_5_denoising_"
+    pcd_file_path: "/home/rizy/maps/galileo_3_5/galileo_3_5_denoising_.pcd"
+    topic_name: "/pcd_map_galileo_3_5_denoising_"
