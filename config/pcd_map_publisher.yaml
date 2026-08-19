@@ -1,0 +1,9 @@
+pcd_map_publisher:
+  ros__parameters:
+    pcd_file_path: "/home/rizy/maps/galileo_3_5/356.pcd"
+    topic_name: "/pcd_map"
+    frame_id: "map"
+    publish_rate_hz: 1.0
+    use_transient_local: false
+    enable_voxel_downsampling: true
+    voxel_leaf_size: 0.2
